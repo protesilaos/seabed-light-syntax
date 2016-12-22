@@ -1,0 +1,30 @@
+.source.js {
+  .keyword {
+    &.operator {
+      .text1();
+
+      &.typeof {
+        .secondary2();
+      }
+
+      &.logical {
+        .secondary2();
+      }
+
+      &.delete,
+      &.in,
+      &.of,
+      &.instanceof,
+      &.new,
+      &.void {
+        .tertiary2()
+      }
+    }
+  }
+
+  .meta {
+    &.arguments {
+      .text1();
+    }
+  }
+}

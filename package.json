@@ -1,0 +1,18 @@
+{
+  "name": "seabed-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Deep sea syntax. Low contrast.",
+  "keywords": [
+    "syntax",
+    "blue",
+    "indigo",
+    "teal",
+    "light"
+  ],
+  "repository": "https://github.com/protesilaos/seabed-light-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  }
+}
