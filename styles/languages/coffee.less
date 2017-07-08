@@ -1,37 +1,37 @@
 // Coffee
 
-.coffee {
-  &.source {
-    .text1();
+.syntax--coffee {
+  &.syntax--source {
+    .syntax--text1();
   }
 
-  .string {
-    &.quoted {
+  .syntax--string {
+    &.syntax--quoted {
       .secondary1();
     }
   }
 
-  .punctuation {
-    &.definition {
-      &.string {
+  .syntax--punctuation {
+    &.syntax--definition {
+      &.syntax--string {
         .secondary1();
       }
     }
   }
 
-  .keyword {
-    &.control {
+  .syntax--keyword {
+    &.syntax--control {
       .primary3();
-      &.anchor {
+      &.syntax--anchor {
         .secondary2();
       }
     }
 
-    &.operator {
-      .text1();
+    &.syntax--operator {
+      .syntax--text1();
     }
 
-    &.other {
+    &.syntax--other {
       .secondary2();
     }
   }
