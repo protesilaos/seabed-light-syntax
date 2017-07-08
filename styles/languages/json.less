@@ -1,20 +1,20 @@
 // JSON
 
-.json {
-  .string {
+.syntax--json {
+  .syntax--string {
     .primary1();
-    .punctuation {
-      .text2();
+    .syntax--punctuation {
+      .syntax--text2();
     }
   }
-  .value {
-    & > .string {
+  .syntax--value {
+    & > .syntax--string {
       .primary2();
-      .punctuation {
-        .text2();
+      .syntax--punctuation {
+        .syntax--text2();
       }
     }
-    .constant {
+    .syntax--constant {
       .secondary2();
     }
   }

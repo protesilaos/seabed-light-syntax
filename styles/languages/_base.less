@@ -1,5 +1,5 @@
-.text1 { color: @text1; }
-.text2 { color: @text2; }
+.syntax--text1 { color: @text1; }
+.syntax--text2 { color: @text2; }
 
 .primary1 { color: @primary1; }
 .primary2 { color: @primary2; }
@@ -13,53 +13,53 @@
 .tertiary3 { color: @tertiary3; }
 
 // Mixins -----------------------------------
-.punctuation-mixin(@punctuation:@text2) {
-  .punctuation,
-  .bracket,
-  .brace {
+.syntax--punctuation-mixin(@punctuation:@text2) {
+  .syntax--punctuation,
+  .syntax--bracket,
+  .syntax--brace {
     color: @punctuation;
   }
 }
 
-.meta,
-.support {
-  .text1();
+.syntax--meta,
+.syntax--support {
+  .syntax--text1();
 }
 
-.html.elements,
-.entity,
-.tag,
-.function-call {
+.syntax--html.syntax--elements,
+.syntax--entity,
+.syntax--tag,
+.syntax--function-call {
   .primary1();
 }
 
-.variable,
-.attribute-name,
-.character.escape {
+.syntax--variable,
+.syntax--attribute-name,
+.syntax--character.syntax--escape {
   .primary2();
 }
 
-.constant,
-.storage.type {
+.syntax--constant,
+.syntax--storage.syntax--type {
   .primary3();
 }
 
-.string,
-.string.punctuation {
+.syntax--string,
+.syntax--string.syntax--punctuation {
   .secondary1();
 }
 
-.keyword,
-.storage {
+.syntax--keyword,
+.syntax--storage {
   .secondary2();
 }
 
-.punctuation-mixin();
+.syntax--punctuation-mixin();
 
-.comment {
-  .text2();
+.syntax--comment {
+  .syntax--text2();
   font-style: italic;
 }
 
-.bold { font-weight: bold; }
-.italic { font-style: italic; }
+.syntax--bold { font-weight: bold; }
+.syntax--italic { font-style: italic; }
